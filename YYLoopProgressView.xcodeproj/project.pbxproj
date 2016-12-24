@@ -15,6 +15,8 @@
 		30B863FF1E0EDE900099E7BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B863FD1E0EDE900099E7BC /* LaunchScreen.storyboard */; };
 		30B8640A1E0EDE900099E7BC /* YYLoopProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B864091E0EDE900099E7BC /* YYLoopProgressViewTests.m */; };
 		30B864151E0EDE900099E7BC /* YYLoopProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B864141E0EDE900099E7BC /* YYLoopProgressViewUITests.m */; };
+		30B864291E0EDF0C0099E7BC /* YYLoopProgressView+BaseConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B864261E0EDF0C0099E7BC /* YYLoopProgressView+BaseConfiguration.m */; };
+		30B8642A1E0EDF0C0099E7BC /* YYLoopProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B864281E0EDF0C0099E7BC /* YYLoopProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		30B864101E0EDE900099E7BC /* YYLoopProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYLoopProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B864141E0EDE900099E7BC /* YYLoopProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYLoopProgressViewUITests.m; sourceTree = "<group>"; };
 		30B864161E0EDE900099E7BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B864251E0EDF0C0099E7BC /* YYLoopProgressView+BaseConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YYLoopProgressView+BaseConfiguration.h"; sourceTree = "<group>"; };
+		30B864261E0EDF0C0099E7BC /* YYLoopProgressView+BaseConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYLoopProgressView+BaseConfiguration.m"; sourceTree = "<group>"; };
+		30B864271E0EDF0C0099E7BC /* YYLoopProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLoopProgressView.h; sourceTree = "<group>"; };
+		30B864281E0EDF0C0099E7BC /* YYLoopProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLoopProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		30B863EE1E0EDE900099E7BC /* YYLoopProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				30B864241E0EDF0C0099E7BC /* YYLoopProgressView */,
 				30B863F21E0EDE900099E7BC /* AppDelegate.h */,
 				30B863F31E0EDE900099E7BC /* AppDelegate.m */,
 				30B863F51E0EDE900099E7BC /* ViewController.h */,
@@ -138,6 +145,17 @@
 				30B864161E0EDE900099E7BC /* Info.plist */,
 			);
 			path = YYLoopProgressViewUITests;
+			sourceTree = "<group>";
+		};
+		30B864241E0EDF0C0099E7BC /* YYLoopProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				30B864251E0EDF0C0099E7BC /* YYLoopProgressView+BaseConfiguration.h */,
+				30B864261E0EDF0C0099E7BC /* YYLoopProgressView+BaseConfiguration.m */,
+				30B864271E0EDF0C0099E7BC /* YYLoopProgressView.h */,
+				30B864281E0EDF0C0099E7BC /* YYLoopProgressView.m */,
+			);
+			path = YYLoopProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +297,8 @@
 				30B863F71E0EDE900099E7BC /* ViewController.m in Sources */,
 				30B863F41E0EDE900099E7BC /* AppDelegate.m in Sources */,
 				30B863F11E0EDE900099E7BC /* main.m in Sources */,
+				30B864291E0EDF0C0099E7BC /* YYLoopProgressView+BaseConfiguration.m in Sources */,
+				30B8642A1E0EDF0C0099E7BC /* YYLoopProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
