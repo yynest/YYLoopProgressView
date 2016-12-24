@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30B863F11E0EDE900099E7BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B863F01E0EDE900099E7BC /* main.m */; };
+		30B863F41E0EDE900099E7BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B863F31E0EDE900099E7BC /* AppDelegate.m */; };
+		30B863F71E0EDE900099E7BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B863F61E0EDE900099E7BC /* ViewController.m */; };
+		30B863FA1E0EDE900099E7BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B863F81E0EDE900099E7BC /* Main.storyboard */; };
+		30B863FC1E0EDE900099E7BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B863FB1E0EDE900099E7BC /* Assets.xcassets */; };
+		30B863FF1E0EDE900099E7BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B863FD1E0EDE900099E7BC /* LaunchScreen.storyboard */; };
+		30B8640A1E0EDE900099E7BC /* YYLoopProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B864091E0EDE900099E7BC /* YYLoopProgressViewTests.m */; };
+		30B864151E0EDE900099E7BC /* YYLoopProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B864141E0EDE900099E7BC /* YYLoopProgressViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30B864061E0EDE900099E7BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30B863E41E0EDE900099E7BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30B863EB1E0EDE900099E7BC;
+			remoteInfo = YYLoopProgressView;
+		};
+		30B864111E0EDE900099E7BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30B863E41E0EDE900099E7BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30B863EB1E0EDE900099E7BC;
+			remoteInfo = YYLoopProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30B863EC1E0EDE900099E7BC /* YYLoopProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYLoopProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B863F01E0EDE900099E7BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30B863F21E0EDE900099E7BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30B863F31E0EDE900099E7BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30B863F51E0EDE900099E7BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30B863F61E0EDE900099E7BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30B863F91E0EDE900099E7BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30B863FB1E0EDE900099E7BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30B863FE1E0EDE900099E7BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30B864001E0EDE900099E7BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B864051E0EDE900099E7BC /* YYLoopProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYLoopProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B864091E0EDE900099E7BC /* YYLoopProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYLoopProgressViewTests.m; sourceTree = "<group>"; };
+		30B8640B1E0EDE900099E7BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B864101E0EDE900099E7BC /* YYLoopProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYLoopProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B864141E0EDE900099E7BC /* YYLoopProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYLoopProgressViewUITests.m; sourceTree = "<group>"; };
+		30B864161E0EDE900099E7BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30B863E91E0EDE900099E7BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B864021E0EDE900099E7BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B8640D1E0EDE900099E7BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30B863E31E0EDE900099E7BC = {
+			isa = PBXGroup;
+			children = (
+				30B863EE1E0EDE900099E7BC /* YYLoopProgressView */,
+				30B864081E0EDE900099E7BC /* YYLoopProgressViewTests */,
+				30B864131E0EDE900099E7BC /* YYLoopProgressViewUITests */,
+				30B863ED1E0EDE900099E7BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30B863ED1E0EDE900099E7BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30B863EC1E0EDE900099E7BC /* YYLoopProgressView.app */,
+				30B864051E0EDE900099E7BC /* YYLoopProgressViewTests.xctest */,
+				30B864101E0EDE900099E7BC /* YYLoopProgressViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30B863EE1E0EDE900099E7BC /* YYLoopProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				30B863F21E0EDE900099E7BC /* AppDelegate.h */,
+				30B863F31E0EDE900099E7BC /* AppDelegate.m */,
+				30B863F51E0EDE900099E7BC /* ViewController.h */,
+				30B863F61E0EDE900099E7BC /* ViewController.m */,
+				30B863F81E0EDE900099E7BC /* Main.storyboard */,
+				30B863FB1E0EDE900099E7BC /* Assets.xcassets */,
+				30B863FD1E0EDE900099E7BC /* LaunchScreen.storyboard */,
+				30B864001E0EDE900099E7BC /* Info.plist */,
+				30B863EF1E0EDE900099E7BC /* Supporting Files */,
+			);
+			path = YYLoopProgressView;
+			sourceTree = "<group>";
+		};
+		30B863EF1E0EDE900099E7BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30B863F01E0EDE900099E7BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30B864081E0EDE900099E7BC /* YYLoopProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				30B864091E0EDE900099E7BC /* YYLoopProgressViewTests.m */,
+				30B8640B1E0EDE900099E7BC /* Info.plist */,
+			);
+			path = YYLoopProgressViewTests;
+			sourceTree = "<group>";
+		};
+		30B864131E0EDE900099E7BC /* YYLoopProgressViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30B864141E0EDE900099E7BC /* YYLoopProgressViewUITests.m */,
+				30B864161E0EDE900099E7BC /* Info.plist */,
+			);
+			path = YYLoopProgressViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30B863EB1E0EDE900099E7BC /* YYLoopProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30B864191E0EDE900099E7BC /* Build configuration list for PBXNativeTarget "YYLoopProgressView" */;
+			buildPhases = (
+				30B863E81E0EDE900099E7BC /* Sources */,
+				30B863E91E0EDE900099E7BC /* Frameworks */,
+				30B863EA1E0EDE900099E7BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYLoopProgressView;
+			productName = YYLoopProgressView;
+			productReference = 30B863EC1E0EDE900099E7BC /* YYLoopProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30B864041E0EDE900099E7BC /* YYLoopProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30B8641C1E0EDE900099E7BC /* Build configuration list for PBXNativeTarget "YYLoopProgressViewTests" */;
+			buildPhases = (
+				30B864011E0EDE900099E7BC /* Sources */,
+				30B864021E0EDE900099E7BC /* Frameworks */,
+				30B864031E0EDE900099E7BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30B864071E0EDE900099E7BC /* PBXTargetDependency */,
+			);
+			name = YYLoopProgressViewTests;
+			productName = YYLoopProgressViewTests;
+			productReference = 30B864051E0EDE900099E7BC /* YYLoopProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30B8640F1E0EDE900099E7BC /* YYLoopProgressViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30B8641F1E0EDE900099E7BC /* Build configuration list for PBXNativeTarget "YYLoopProgressViewUITests" */;
+			buildPhases = (
+				30B8640C1E0EDE900099E7BC /* Sources */,
+				30B8640D1E0EDE900099E7BC /* Frameworks */,
+				30B8640E1E0EDE900099E7BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30B864121E0EDE900099E7BC /* PBXTargetDependency */,
+			);
+			name = YYLoopProgressViewUITests;
+			productName = YYLoopProgressViewUITests;
+			productReference = 30B864101E0EDE900099E7BC /* YYLoopProgressViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30B863E41E0EDE900099E7BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Chinasunhealth;
+				TargetAttributes = {
+					30B863EB1E0EDE900099E7BC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SA6BGR8N24;
+						ProvisioningStyle = Automatic;
+					};
+					30B864041E0EDE900099E7BC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SA6BGR8N24;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30B863EB1E0EDE900099E7BC;
+					};
+					30B8640F1E0EDE900099E7BC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SA6BGR8N24;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30B863EB1E0EDE900099E7BC;
+					};
+				};
+			};
+			buildConfigurationList = 30B863E71E0EDE900099E7BC /* Build configuration list for PBXProject "YYLoopProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30B863E31E0EDE900099E7BC;
+			productRefGroup = 30B863ED1E0EDE900099E7BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30B863EB1E0EDE900099E7BC /* YYLoopProgressView */,
+				30B864041E0EDE900099E7BC /* YYLoopProgressViewTests */,
+				30B8640F1E0EDE900099E7BC /* YYLoopProgressViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30B863EA1E0EDE900099E7BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B863FF1E0EDE900099E7BC /* LaunchScreen.storyboard in Resources */,
+				30B863FC1E0EDE900099E7BC /* Assets.xcassets in Resources */,
+				30B863FA1E0EDE900099E7BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B864031E0EDE900099E7BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B8640E1E0EDE900099E7BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30B863E81E0EDE900099E7BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B863F71E0EDE900099E7BC /* ViewController.m in Sources */,
+				30B863F41E0EDE900099E7BC /* AppDelegate.m in Sources */,
+				30B863F11E0EDE900099E7BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B864011E0EDE900099E7BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B8640A1E0EDE900099E7BC /* YYLoopProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B8640C1E0EDE900099E7BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B864151E0EDE900099E7BC /* YYLoopProgressViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30B864071E0EDE900099E7BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30B863EB1E0EDE900099E7BC /* YYLoopProgressView */;
+			targetProxy = 30B864061E0EDE900099E7BC /* PBXContainerItemProxy */;
+		};
+		30B864121E0EDE900099E7BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30B863EB1E0EDE900099E7BC /* YYLoopProgressView */;
+			targetProxy = 30B864111E0EDE900099E7BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30B863F81E0EDE900099E7BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30B863F91E0EDE900099E7BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30B863FD1E0EDE900099E7BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30B863FE1E0EDE900099E7BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30B864171E0EDE900099E7BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30B864181E0EDE900099E7BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30B8641A1E0EDE900099E7BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SA6BGR8N24;
+				INFOPLIST_FILE = YYLoopProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chnsun.YYLoopProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30B8641B1E0EDE900099E7BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SA6BGR8N24;
+				INFOPLIST_FILE = YYLoopProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chnsun.YYLoopProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30B8641D1E0EDE900099E7BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SA6BGR8N24;
+				INFOPLIST_FILE = YYLoopProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chnsun.YYLoopProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYLoopProgressView.app/YYLoopProgressView";
+			};
+			name = Debug;
+		};
+		30B8641E1E0EDE900099E7BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SA6BGR8N24;
+				INFOPLIST_FILE = YYLoopProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chnsun.YYLoopProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYLoopProgressView.app/YYLoopProgressView";
+			};
+			name = Release;
+		};
+		30B864201E0EDE900099E7BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SA6BGR8N24;
+				INFOPLIST_FILE = YYLoopProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chnsun.YYLoopProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYLoopProgressView;
+			};
+			name = Debug;
+		};
+		30B864211E0EDE900099E7BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SA6BGR8N24;
+				INFOPLIST_FILE = YYLoopProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chnsun.YYLoopProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYLoopProgressView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30B863E71E0EDE900099E7BC /* Build configuration list for PBXProject "YYLoopProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B864171E0EDE900099E7BC /* Debug */,
+				30B864181E0EDE900099E7BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30B864191E0EDE900099E7BC /* Build configuration list for PBXNativeTarget "YYLoopProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B8641A1E0EDE900099E7BC /* Debug */,
+				30B8641B1E0EDE900099E7BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30B8641C1E0EDE900099E7BC /* Build configuration list for PBXNativeTarget "YYLoopProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B8641D1E0EDE900099E7BC /* Debug */,
+				30B8641E1E0EDE900099E7BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30B8641F1E0EDE900099E7BC /* Build configuration list for PBXNativeTarget "YYLoopProgressViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B864201E0EDE900099E7BC /* Debug */,
+				30B864211E0EDE900099E7BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30B863E41E0EDE900099E7BC /* Project object */;
+}
